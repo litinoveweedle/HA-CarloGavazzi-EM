@@ -1,0 +1,192 @@
+- name: PM3_v_l_n_sys
+  unit_of_measurement: V
+  state_class: measurement
+  device_class: voltage
+  slave: 3
+  address: 0
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM1_a_sys
+  unit_of_measurement: A
+  state_class: measurement
+  device_class: current
+  slave: 3
+  address: 2
+  data_type: int32
+  input_type: input
+  precision: 3
+  count: 2
+  scale: 0.001
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_w_sys
+  unit_of_measurement: W
+  state_class: measurement
+  device_class: power
+  slave: 3
+  address: 4
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_va_sys
+  unit_of_measurement: VA
+  state_class: measurement
+  device_class: apparent_power
+  slave: 3
+  address: 6
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_var_sys
+  unit_of_measurement: var
+  state_class: measurement
+  device_class: reactive_power
+  slave: 3
+  address: 8
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_pf_sys
+  unit_of_measurement: "%"
+  state_class: measurement
+  device_class: power_factor
+  slave: 3
+  address: 14
+  data_type: int16
+  input_type: input
+  precision: 3
+  count: 1
+  scale: 0.001
+  scan_interval: 15
+  lazy_error_count : 999
+
+- name: PM3_hz_sys
+  unit_of_measurement: Hz
+  state_class: measurement
+  device_class: frequency
+  slave: 3
+  address: 15
+  data_type: int16
+  input_type: input
+  precision: 2
+  count: 1
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+
+- name: PM3_kwh_pos_t1
+  unit_of_measurement: kWh
+  state_class: total_increasing
+  device_class: energy
+  slave: 3
+  address: 24
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_kwh_pos_t2
+  unit_of_measurement: kWh
+  state_class: total_increasing
+  device_class: energy
+  slave: 3
+  address: 26
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+- name: PM3_kwh_pos_tot
+  unit_of_measurement: kWh
+  state_class: total_increasing
+  device_class: energy
+  slave: 3
+  address: 16
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+#- name: PM3_kvarh_pos_tot
+#  unit_of_measurement: kvarh
+#  state_class: total_increasing
+#  device_class: energy
+#  slave: 3
+#  address: 18
+#  data_type: int32
+#  input_type: input
+#  precision: 2
+#  count: 2
+#  scale: 0.1
+#  scan_interval: 15
+#  lazy_error_count : 999
+#  swap : word
+
+- name: PM3_kwh_neg_tot
+  unit_of_measurement: kWh
+  state_class: total_increasing
+  device_class: energy
+  slave: 3
+  address: 32
+  data_type: int32
+  input_type: input
+  precision: 2
+  count: 2
+  scale: 0.1
+  scan_interval: 15
+  lazy_error_count : 999
+  swap : word
+
+#- name: PM3_kvarh_neg_tot
+#  unit_of_measurement: kvarh
+#  state_class: total_increasing
+#  device_class: energy
+#  slave: 3
+#  address: 34
+#  data_type: int32
+#  input_type: input
+#  precision: 2
+#  count: 2
+#  scale: 0.1
+#  scan_interval: 15
+#  lazy_error_count : 999
+#  swap : word
