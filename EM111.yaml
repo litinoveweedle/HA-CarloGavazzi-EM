@@ -7,12 +7,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM1_a_sys
   unit_of_measurement: A
   state_class: measurement
@@ -22,12 +20,10 @@
   data_type: int32
   input_type: input
   precision: 3
-  count: 2
   scale: 0.001
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_w_sys
   unit_of_measurement: W
   state_class: measurement
@@ -37,12 +33,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_va_sys
   unit_of_measurement: VA
   state_class: measurement
@@ -52,12 +46,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_var_sys
   unit_of_measurement: var
   state_class: measurement
@@ -67,12 +59,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_pf_sys
   unit_of_measurement: "%"
   state_class: measurement
@@ -82,11 +72,9 @@
   data_type: int16
   input_type: input
   precision: 3
-  count: 1
   scale: 0.001
   scan_interval: 15
-  lazy_error_count : 999
-
+  
 - name: PM3_hz_sys
   unit_of_measurement: Hz
   state_class: measurement
@@ -96,10 +84,8 @@
   data_type: int16
   input_type: input
   precision: 2
-  count: 1
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
 
 - name: PM3_kwh_pos_t1
   unit_of_measurement: kWh
@@ -110,12 +96,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_kwh_pos_t2
   unit_of_measurement: kWh
   state_class: total_increasing
@@ -125,12 +109,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 - name: PM3_kwh_pos_tot
   unit_of_measurement: kWh
   state_class: total_increasing
@@ -140,12 +122,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 #- name: PM3_kvarh_pos_tot
 #  unit_of_measurement: kvarh
 #  state_class: total_increasing
@@ -155,12 +135,10 @@
 #  data_type: int32
 #  input_type: input
 #  precision: 2
-#  count: 2
 #  scale: 0.1
 #  scan_interval: 15
-#  lazy_error_count : 999
 #  swap : word
-
+  
 - name: PM3_kwh_neg_tot
   unit_of_measurement: kWh
   state_class: total_increasing
@@ -170,12 +148,10 @@
   data_type: int32
   input_type: input
   precision: 2
-  count: 2
   scale: 0.1
   scan_interval: 15
-  lazy_error_count : 999
   swap : word
-
+  
 #- name: PM3_kvarh_neg_tot
 #  unit_of_measurement: kvarh
 #  state_class: total_increasing
@@ -185,8 +161,6 @@
 #  data_type: int32
 #  input_type: input
 #  precision: 2
-#  count: 2
 #  scale: 0.1
 #  scan_interval: 15
-#  lazy_error_count : 999
 #  swap : word
